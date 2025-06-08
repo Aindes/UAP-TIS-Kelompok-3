@@ -16,9 +16,8 @@ return new class extends Migration
             $table->string('nama');
             $table->integer('angkatan');
             $table->string('password');
-            $table->unsignedInteger('prodi_id'); // Foreign Key 
+            $table->unsignedBigInteger('prodi_id'); // Foreign Key 
             $table->foreign('prodi_id')->references('id')->on('prodis')->onDelete('cascade');
-            // prodi bagian anggota selanjutnya
             $table->timestamps();
         });
     }

@@ -24,4 +24,5 @@ $router->post('/login', 'AuthController@login');
 $router->group(['middleware' => 'auth'], function () use ($router) {
     $router->get('/mahasiswa', 'MahasiswaController@index');
     $router->get('/mahasiswa/prodi/{prodi_id}', 'MahasiswaController@filterByProdi');
+    $router->get('/prodi', 'ProdiController@index');
 });
