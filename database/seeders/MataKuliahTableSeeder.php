@@ -39,3 +39,4 @@ class MatakuliahTableSeeder extends Seeder
         ]);
     }
 }
+
