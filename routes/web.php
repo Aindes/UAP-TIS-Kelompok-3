@@ -23,6 +23,9 @@ $router->post('/login', 'AuthController@login');
 
 $router->group(['middleware' => 'auth'], function () use ($router) {
     $router->get('/mahasiswa', 'MahasiswaController@index');
-    $router->get('/mahasiswa/prodi/{prodi_id}', 'MahasiswaController@filterByProdi');
     $router->get('/prodi', 'ProdiController@index');
+    $router->get('/mahasiswa/prodi/{prodi_id}', 'MahasiswaController@filterByProdi');
+    $router->get('/matkul', 'MatakuliahController@index');
+    $router->post('/matkul/tambah', 'MatakuliahController@addCourse'); 
+    $router->get('/matkul/{id}', 'MatakuliahController@myCourses'); // Ini akan mengambil ID dari URL, tetapi logikanya untuk pengguna login 
 });
