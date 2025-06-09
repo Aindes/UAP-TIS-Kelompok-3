@@ -13,8 +13,8 @@ class MatakuliahTableSeeder extends Seeder
         DB::table('matakuliahs')->insert([
             [
                 'nama' => 'Pemrograman Dasar',
-                'created_at' => Carbon::now(), // Mengisi created_at dengan waktu saat ini
-                'updated_at' => Carbon::now()  // Mengisi updated_at dengan waktu saat ini
+                'created_at' => Carbon::now(), 
+                'updated_at' => Carbon::now()  
             ],
             [
                 'nama' => 'Pemrograman Lanjut',
