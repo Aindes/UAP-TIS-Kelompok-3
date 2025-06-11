@@ -141,7 +141,7 @@ Kelompok: Konfigurasi Aplikasi & Setup Lainnya
 
 ## 🖼️ ERD
 
-![ERD_UAP_TIS](https://github.com/user-attachments/assets/097ee1c8-d8c2-4af2-9722-cef7b0ee9c86)
+![ERD_UAP_TIS](https://github.com/user-attachments/assets/c5906b96-fd95-4ee9-b727-66f8c7ce7208)
 
 ## 🎥 Video Presentasi
 
